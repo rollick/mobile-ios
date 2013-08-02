@@ -203,7 +203,7 @@
 		CD9115C016243FE90099204B /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9115BF16243FE90099204B /* AlbumViewController.m */; };
 		CD927E4716F8712100843FEE /* WebPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CD927E4616F8712100843FEE /* WebPhoto.m */; };
 		CD92F16716E5375200E071CB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2F10C16E5305800D309B9 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CD9380931794050300C09B9D /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9380921794050300C09B9D /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CD9380931794050300C09B9D /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9380921794050300C09B9D /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		CDA1855A16E601CB00D617CB /* libEmail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2F15D016E600DC004D22FD /* libEmail.a */; };
 		CDA1855B16E601CB00D617CB /* libFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2F15E416E600DC004D22FD /* libFacebook.a */; };
 		CDA1855C16E601CB00D617CB /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2F15C216E600DC004D22FD /* libJSONKit.a */; };
