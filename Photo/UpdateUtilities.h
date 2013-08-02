@@ -29,7 +29,7 @@
 //methods
 - (NSString*) getVersion;
 - (BOOL) needsUpdate;
-- (void) update;
+- (void) update:(NSManagedObjectContext *)context;
 
 // rename the server form OpenPhoto to Trovebox
 - (void) fixOpenPhotoToTroveboxServer;

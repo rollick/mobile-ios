@@ -65,7 +65,8 @@ static UpdateUtilities* instance = nil;
     return NO;
 }
 
-- (void) update{
+- (void) update:(NSManagedObjectContext *)context
+{
     // save the version in the user default
     NSUserDefaults *standardUserDefaults = [NSUserDefaults standardUserDefaults];
     [standardUserDefaults setValue:nil forKey:kHomeScreenPicturesTimestamp];
@@ -79,7 +80,7 @@ static UpdateUtilities* instance = nil;
     [standardUserDefaults synchronize];
     
     // delete timeline
-    [Timeline deleteAllTimelineInManagedObjectContext:[SharedAppDelegate managedObjectContext]];
+    [Timeline deleteAllTimelineInManagedObjectContext:context];
     
     // remove old cache
     [[SDImageCache sharedImageCache] cleanDisk];
